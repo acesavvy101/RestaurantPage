@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-right: 50px;
+    height: 30px;
+    width: 50px;
+}
+
+header {
+    padding: 30px;
+}
