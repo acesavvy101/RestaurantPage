@@ -1,9 +1,10 @@
 //import the image to use
-import cafeBg from "/assets/cafeBg.jpg"
+import Dazzlers from "/assets/Dazzlers.jpeg"
 
 export const homepageImg = document.createElement('img')
-homepageImg.src = cafeBg
+homepageImg.src = Dazzlers
+homepageImg.id = "homepageImage"
 
 export const description = document.createElement('p')
-description.textContent = "We are a lovely humble cafe hidden in the old streets of Tamsui. Run by a local grandpa, serving affordable drinks with a quiet relaxing scenery."
-
+description.textContent = "Enjoy an authentic British Fish and Chips while enjoying sunsets by the beach. Ever since our opening we have been continuously recommended by TripAdvisor as a go to British Cuisine landmark in New Taipei City!"
+description.id = "homepageDescription"

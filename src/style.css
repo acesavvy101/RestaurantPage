@@ -6,9 +6,39 @@ nav {
 button {
     margin-right: 50px;
     height: 30px;
-    width: 50px;
 }
 
 header {
     padding: 30px;
+    margin-bottom: 50px;
+}
+
+#homepageImage {
+  aspect-ratio: 4/3;
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mapsImage {
+    aspect-ratio: 4/3;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.menuImage {
+    width: 300px;
+    height: 300px;
+    /* make this a grid later, append inside another div */
+}
+
+#openingHours {
+    text-align: center;
+}
+#contactInfo {
+    text-align: center;
 }
